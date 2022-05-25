@@ -19,7 +19,10 @@ function TransformUsers(props) {
     tUser.first_name = nameAr.first_name;
     tUser.last_name = nameAr.last_name;
     tUser.company_name = user.company.name;
-    tUser.company_full_address = user.address.street.concat(", ", user.address.city).concat(", ", user.address.zipcode);
+    tUser.company_full_address = user.address.street
+      .concat(", ", user.address.suite)
+      .concat(", ", user.address.city)
+      .concat(", ", user.address.zipcode);
     tUser.website = user.website;
     tUser.phone = phoneNumber;
 
