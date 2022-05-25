@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/joeybee9999/HomeCarePulseApiTest.git/static/css/main.57c11252.css",
+    "main.js": "/joeybee9999/HomeCarePulseApiTest.git/static/js/main.47150a7e.js",
+    "static/js/787.91d23d18.chunk.js": "/joeybee9999/HomeCarePulseApiTest.git/static/js/787.91d23d18.chunk.js",
+    "index.html": "/joeybee9999/HomeCarePulseApiTest.git/index.html",
+    "main.57c11252.css.map": "/joeybee9999/HomeCarePulseApiTest.git/static/css/main.57c11252.css.map",
+    "main.47150a7e.js.map": "/joeybee9999/HomeCarePulseApiTest.git/static/js/main.47150a7e.js.map",
+    "787.91d23d18.chunk.js.map": "/joeybee9999/HomeCarePulseApiTest.git/static/js/787.91d23d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57c11252.css",
+    "static/js/main.47150a7e.js"
+  ]
+}
