@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/HomeCarePulseApiTest/static/css/main.57c11252.css",
-    "main.js": "/HomeCarePulseApiTest/static/js/main.e237ecbf.js",
+    "main.css": "/HomeCarePulseApiTest/static/css/main.64a830f4.css",
+    "main.js": "/HomeCarePulseApiTest/static/js/main.31633dd5.js",
     "static/js/787.91d23d18.chunk.js": "/HomeCarePulseApiTest/static/js/787.91d23d18.chunk.js",
     "index.html": "/HomeCarePulseApiTest/index.html",
-    "main.57c11252.css.map": "/HomeCarePulseApiTest/static/css/main.57c11252.css.map",
-    "main.e237ecbf.js.map": "/HomeCarePulseApiTest/static/js/main.e237ecbf.js.map",
+    "main.64a830f4.css.map": "/HomeCarePulseApiTest/static/css/main.64a830f4.css.map",
+    "main.31633dd5.js.map": "/HomeCarePulseApiTest/static/js/main.31633dd5.js.map",
     "787.91d23d18.chunk.js.map": "/HomeCarePulseApiTest/static/js/787.91d23d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57c11252.css",
-    "static/js/main.e237ecbf.js"
+    "static/css/main.64a830f4.css",
+    "static/js/main.31633dd5.js"
   ]
 }
