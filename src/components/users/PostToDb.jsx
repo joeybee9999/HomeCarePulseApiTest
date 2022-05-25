@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, Row, Col } from "react-bootstrap";
 import { addTransformedUsers } from "./../../services/tUsersService";
+import { toast } from "react-toastify";
 
 function PostToDb(props) {
   const [payload, setPayload] = useState({
@@ -27,10 +28,12 @@ function PostToDb(props) {
 
   const onAddTUsersSuccess = (response) => {
     console.log("Added tUsers! :D =>", response);
+    toast.success("Successfully added users to the Database!");
   };
 
   const onAddTUsersError = (err) => {
     console.log("Error adding tUsers! :( =>", err);
+    toast.error("Error adding users to the database", "POST Error");
   };
 
   return (

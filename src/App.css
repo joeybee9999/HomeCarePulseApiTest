@@ -12,3 +12,13 @@
   color: white;
   padding: 1rem;
 }
+
+.navheader {
+  margin-top: 15px;
+  font-size: 18px;
+  color: black !important;
+  background-color: #b3beca !important;
+}
+.btnspace {
+  margin: 15px;
+}

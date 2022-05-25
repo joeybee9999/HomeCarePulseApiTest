@@ -3,6 +3,7 @@ import { Button, Row, Container, Col } from "react-bootstrap";
 import { allUsers } from "../../services/usersService";
 import UsersTable from "./UsersTable";
 import TransformUsers from "./TransformUsers";
+import { toast } from "react-toastify";
 
 function Users() {
   const [renderUserTable, setRenderUserTable] = useState(false);
@@ -22,12 +23,14 @@ function Users() {
 
   const onAllUsersSuccess = (response) => {
     console.log("Successfully got all users! :D =>", response.data);
+    toast.success("Successfully got users!");
     const userList = response.data;
     setUserList(userList);
   };
 
   const onAllUsersError = (err) => {
     console.log("There was an error! :( =>", err);
+    toast.error("Error getting users", "GET Error");
   };
 
   return (
